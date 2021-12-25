@@ -18,8 +18,10 @@ In the first example, the linear colormap used by `scatter` is completely useles
 `scatter_nice` fixes this by using an automatically balanced nonlinear colormap.
 Moreover, outliers near the beginning of the input vector are completely invisible in the first plot since they are hidden by later datapoints.
 Using `scatter_nice`, they are easily visible because of a) the nonlinear colormap and b) *randomized-order plotting*.
+
 In the second example, simply plotting two groups after another (with `hold on`) using `scatter`, the second group will completely hide the first.
 `scatter_nice` offers a simple interface for plotting multiple groups and plots them in *randomized order*.
+
 In both examples, `scatter_nice` adaptively chooses a point size that is (to my eyes, at least) better suited to the number of datapoints, and selects a fitting and well-crafted colormap from `cbrewer`.
 
 ![An example plot.](demo.png)
