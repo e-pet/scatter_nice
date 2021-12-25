@@ -15,7 +15,7 @@ The file is included here for convenience; copyright remains with the original a
 
 The following are two examples comparing the default outputs of `scatter(.)` and `scatter_nice(.)`.
 
-![demo.png]
+![An example plot.](demo.png)
 
 ---
 Eike Petersen, 2020-2021
