@@ -28,3 +28,5 @@ In both examples, `scatter_nice` adaptively chooses a point size that is (to my 
 
 ---
 Eike Petersen, 2020-2021
+
+This script has been developed while I was at the [University of Lübeck](https://www.uni-luebeck.de/en/university/university.html), with the [Institute for Electrical Engineering in Medicine](https://www.ime.uni-luebeck.de/institute.html).
